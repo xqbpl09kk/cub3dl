@@ -61,5 +61,5 @@ for x in range(img.size[0]):
         toColor2 = (int(toR * 255), int(toG * 255), int(toB * 255))
 
         bitmap[x, y] = toColor2
-
+        #xqb add 2 
 img.show()
