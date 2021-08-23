@@ -43,7 +43,7 @@ for x in range(img.size[0]):
         greenH = math.ceil(green)
         greenL = math.floor(green)
 
-        #xqb
+        #xqb01
         blueH = math.ceil(blue)
         blueL = math.floor(blue)
 
