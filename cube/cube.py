@@ -68,4 +68,5 @@ for x in range(img.size[0]):
         #xqb add 3
         #master add 4
         #xqb add 4
+        #xqb add 5 
 img.show()
