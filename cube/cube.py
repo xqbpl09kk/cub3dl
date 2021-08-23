@@ -5,8 +5,10 @@ import math
 def cubeIndex(r, g, b):
     return int(r + g * 32 + b * 32 * 32)
 
+
 def mix(a, b, c):
     return a + (b - a) * (c - math.floor(c))
+
 
 img = Image.open("cat.jpg")
 bitmap = img.load()
@@ -55,9 +57,7 @@ for x in range(img.size[0]):
         toB = mix(toColorL[2], toColorH[2], blue)
 
         toColor2 = (int(toR * 255), int(toG * 255), int(toB * 255))
+
         bitmap[x, y] = toColor2
 
 img.show()
-
-
-
