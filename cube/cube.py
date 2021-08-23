@@ -43,8 +43,6 @@ for x in range(img.size[0]):
         greenH = math.ceil(green)
         greenL = math.floor(green)
 
-        #master add
-        #xqb01 append 
         blueH = math.ceil(blue)
         blueL = math.floor(blue)
 
@@ -61,15 +59,5 @@ for x in range(img.size[0]):
         toColor2 = (int(toR * 255), int(toG * 255), int(toB * 255))
 
         bitmap[x, y] = toColor2
-        #master add 2
-        #xqb add 2
-        #master add 3
-        #xqb add 3
-        #xqb add 3
-        #master add 4
-        #xqb add 4
-        #master add 5
-        #xqb add 5
-        #msater add 6
-        #xqb add 6
+
 img.show()
